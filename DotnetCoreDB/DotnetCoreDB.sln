@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{71D0D671-907D-4B16-9515-5E3DDEE0E36E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA181C6A-A6E5-4EF9-9E9D-381C17E74FE2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotnetCoreDB", "src\DotnetCoreDB\DotnetCoreDB.xproj", "{59D70864-9D8A-4065-87F5-A33390B9A79A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59D70864-9D8A-4065-87F5-A33390B9A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D70864-9D8A-4065-87F5-A33390B9A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D70864-9D8A-4065-87F5-A33390B9A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D70864-9D8A-4065-87F5-A33390B9A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59D70864-9D8A-4065-87F5-A33390B9A79A} = {71D0D671-907D-4B16-9515-5E3DDEE0E36E}
+	EndGlobalSection
+EndGlobal
